@@ -1,0 +1,91 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.What is conductance?",
+      "answers": {
+        "a": "Square of resistance",
+        "b": "Cube of resistance",
+        "c": "Inverse of resistance",
+        "d": "Exponential of resistance"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.The CGS unit of specific conductance is?",
+      "answers": {
+        "a": "Ohm cm-1",
+        "b": "Ohm-1 cm-1",
+        "c": "Ohm cm",
+        "d": "Ohm-1 cm"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      
+      "question": "3.The expression and the SI unit of cell constant is ?",
+      "answers": {
+        "a": "l/A , m-1",
+        "b": "A/l , m",
+        "c": "l^3/A , m",
+        "d": "l^2/A , unitless"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.The relation between Λ and κ is?",
+      "answers": {
+        "a": "Λ = κ",
+        "b": " Λ = κ . c",
+        "c": "Λ = κ/c",
+        "d": " Λ = c/κ"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Equivalent conductance at infinite dilution is ?",
+      "answers": {
+        "a": "Λ0= λ_(0 )^++ λ_0^-",
+       "b": " Λ0= λ_(0 )^+- λ_0^- ",
+        "c": "Λ0= λ_(0 )^+.λ_0^-",
+        "d": " Λ0= λ_(0 )^+/λ_0^- "
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

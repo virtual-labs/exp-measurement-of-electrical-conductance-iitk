@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.For strong electrolytes, the plot of Λ vs √C is?",
+      "answers": {
+        "a": "Exponential",
+        "b": "Hyperbolic",
+        "c": "Gaussian",
+        "d": "Linear"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.For weak electrolytes, the plot of Λ vs √C is?",
+      "answers": {
+        "a": "NaOH",
+        "b": "NaCl",
+        "c": "CH3COONa",
+        "d": "Na2CO3"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3.The specific conductance value of an electrolyte depends on?",
+      "answers": {
+        "a": "Pressure",
+        "b": "Volume of electrolyte",
+        "c": "Temperature",
+        "d": "Remains constant at any condition"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.The relation between α and Λ is?",
+      "answers": {
+        "a": "α = Λ/Λ_0 ",
+        "b": "α = Λ_0/Λ",
+        "c": "α = Λ.Λ_0",
+        "d": "α = Λ + Λ_0"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+    ]
+}
