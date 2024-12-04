@@ -37,12 +37,12 @@
     },
     {
       
-      "question": "3.The expression and the SI unit of cell constant is ?",
+      "question": "3.The expression and the SI unit of cell constant is are, respectively ?",
       "answers": {
-        "a": "l/A , m-1",
-        "b": "A/l , m",
-        "c": "l^3/A , m",
-        "d": "l^2/A , unitless"
+        "a": "l/A and m-1",
+        "b": "A/l and m",
+        "c": "l^3/A and m",
+        "d": "l^2/A and unitless"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -71,7 +71,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "5.Equivalent conductance at infinite dilution is ?",
+      "question": "5.Equivalent conductance at infinite dilution Λ₀- is related to the ionic conductances λ₀⁺ and λ₀⁻ as: ",
       "answers": {
         "a": "Λ0= λ_(0 )^++ λ_0^-",
        "b": " Λ0= λ_(0 )^+- λ_0^- ",
