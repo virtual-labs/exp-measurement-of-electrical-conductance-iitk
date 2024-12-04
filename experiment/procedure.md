@@ -15,7 +15,7 @@ F.	Conductivity meter<br>
 <img src="images/fig5.3.png"  width="600" height="500"><br><br>
 <b> Procedure in laboratory</b><br><br>
 <img src="images/fig6.jpg" width="600" height="300"><br><br>
-<b> Data and the analysis</b><br><br>
+<b> Sample Data and Analysis</b><br><br>
 The experimental temperature is 26 ⁰C.<br><br>
 <b> Determination of cell constant</b><br><br>
 <img src="images/fig7.png"><br>
@@ -30,7 +30,7 @@ Average cell constant = (1.19+1.13)/2 = 1.16 cm-1<br><br>
 Figure 1: Plot of equivalent conductance vs √C for NaCl, HCl and CH3COONa.<br><br>
 The Y-axis intercept for NaCl, HCl and CH3COONa are 169960 mmho cm2 eqv-1, 454680 mmho cm2 eqv-1, 135130 mmho cm2 eqv-1, respectively.
 The equivalent conductance of acetic acid at infinite dilution (Λ0) is given as,<br>
-Λ0 = Λ_0^CH3COONa+Λ_0^HCl-Λ_0^NaCl<br>
+<span>&#923;<sub>0</sub> = &#923;<sub>0</sub><sup>CH₃COONa</sup> + &#923;<sub>0</sub><sup>HCl</sup> - &#923;<sub>0</sub><sup>NaCl</sup></span><br>
 = (135130+454680-169960) mmho cm2 eqv-1<br>
 = 419850 mmho cm2 eqv-1 <br><br>
 <b> Determination of exact concentration of acetic acid solutions</b><br><br>

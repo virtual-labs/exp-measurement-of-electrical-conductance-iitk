@@ -1,4 +1,4 @@
-To teach students how to measure conductance and to use conductance value for the
-determination of dissociation constant of a weak acid.
+To measure conductance and to use conductance to measure conductance and to use conductance determine
+the dissociation constant of a weak acid.
 
 
