@@ -559,7 +559,7 @@ body{
     width: 5%;
     height: 12.5%;
     top: 62.5%;
-    left: 73%;
+    left: 89%;
     transition: all;
     transition-duration: 1s;
     visibility: hidden;
@@ -603,7 +603,7 @@ body{
     width: 5%;
     height: 12.5%;
     top: 62.5%;
-    left: 89%;
+    left: 73%;
     transition: all;
     transition-duration: 1s;
     visibility: hidden;
