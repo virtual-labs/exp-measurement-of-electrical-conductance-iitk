@@ -1,4 +1,1 @@
-To measure conductance and to use conductance to measure conductance and to use conductance determine
-the dissociation constant of a weak acid.
-
-
+To determine the dissociation constant of a weak acid by determining electrical conductance of ions and molecules.
