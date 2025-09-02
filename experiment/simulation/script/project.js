@@ -539,61 +539,61 @@ function cellclick(){
             },1500)
             if(type=="na5"){
                 // change.innerText="05.93"
-                  change.innerText="01.45"
+                  change.innerText="00.22"
                 testing="read1"
                 setTimeout(function(){
-                       change.innerText="01.47"
+                       change.innerText="00.23"
                     // change.innerText="05.95"
                 },1500)
                 messcounter=8
                 update()
             }
             else if(type=="na25"){
-                change.innerText="02.76"
-                testing="read2"
-                setTimeout(function(){
-                    change.innerText="02.77"
-                },1500)
-            }
-            else if(type=="na125"){            
-                 change.innerText="05.93"
-                testing="read3"
-                setTimeout(function(){
-                      change.innerText="05.95"
-                },1500)
-            }else if(type=="na62"){
-                // change.innerText="00.76"
-                 change.innerText="00.21"
-                testing="read21"
-                setTimeout(function(){
-                    // change.innerText="00.77"
-                     change.innerText="00.23"
-                },1500)
-            }
-            else if(type=="na31"){
                 change.innerText="00.40"
-                testing="read22"
+                testing="read2"
                 setTimeout(function(){
                     change.innerText="00.41"
                 },1500)
             }
+            else if(type=="na125"){            
+                 change.innerText="00.76"
+                testing="read3"
+                setTimeout(function(){
+                      change.innerText="00.77"
+                },1500)
+            }else if(type=="na62"){
+                // change.innerText="00.76"
+                 change.innerText="01.45"
+                testing="read21"
+                setTimeout(function(){
+                    // change.innerText="00.77"
+                     change.innerText="01.47"
+                },1500)
+            }
+            else if(type=="na31"){
+                change.innerText="02.73"
+                testing="read22"
+                setTimeout(function(){
+                    change.innerText="02.77"
+                },1500)
+            }
             else if(type=="na16"){
                 // change.innerText="00.21"
-                change.innerText="00.76"
+                change.innerText="05.93"
                 testing="read23"
                 setTimeout(function(){
                     // change.innerText="00.23"
-                    change.innerText="00.77"
+                    change.innerText="05.95"
                 },1500)
             }
             else if(type=="h5"){
                 chance="khatam"
                 // change.innerText="013.4"
-                   change.innerText="04.13"
+                   change.innerText="00.5"
                 testing="read4"
                 setTimeout(function(){
                     // change.innerText="013.7"
-                      change.innerText="07.65"
+                      change.innerText="00.06"
                 },1500)
                 messcounter=11
                 update()
@@ -601,43 +601,43 @@ function cellclick(){
             }
             else if(type=="h25"){
                 // change.innerText="07.64"
-                change.innerText="013.4"
+                change.innerText="01.10"
                 testing="read5"
                 setTimeout(function(){
                     // change.innerText="07.65"
-                     change.innerText="013.7"
+                     change.innerText="01.12"
                 },1500)
             }
             else if(type=="h125"){
-                change.innerText="04.13"
+                change.innerText="02.12"
                 testing="read6"
                 setTimeout(function(){
-                    change.innerText="04.15"
+                    change.innerText="02.14"
                 },1500)
             }
             else if(type=="h62"){
                 // change.innerText="02.12"
-                change.innerText="00.59"
+                change.innerText="04.13"
                 testing="read25"
                 setTimeout(function(){
                     // change.innerText="02.14"
-                    change.innerText="00.60"
+                    change.innerText="04.15"
                 },1500)
             }
             else if(type=="h31"){
-                change.innerText="01.11"
+                change.innerText="07.62"
                 testing="read26"
                 setTimeout(function(){
-                    change.innerText="01.12"
+                      change.innerText="07.65"
                 },1500)
             }
             else if(type=="h16"){
                 // change.innerText="00.59"
-                 change.innerText="02.12"
+                 change.innerText="13.05"
                 testing="read27"
                 setTimeout(function(){
                     // change.innerText="00.60"
-                     change.innerText="02.14"
+                    change.innerText="13.07"
                 },1500)
             }
         }
@@ -650,50 +650,50 @@ function cellclick(){
             if(type=="a5"){
                 chance="khatam"
                 // change.innerText="02.24"
-                change.innerText="00.91"
+                change.innerText="00.15"
                 testing="read8"
                 setTimeout(function(){
                     // change.innerText="02.26"
-                       change.innerText="00.92"
+                       change.innerText="00.17"
                 },1500)
                 messcounter=11
                 update()
             }
             else if(type=="a25"){
-                change.innerText="01.45"
-                testing="read9"
-                setTimeout(function(){
-                    change.innerText="01.46"
-                },1500)
-            }
-            else if(type=="a125"){
-                // change.innerText="00.91"
-                 change.innerText="02.24"
-                testing="read10"
-                setTimeout(function(){
-                    // change.innerText="00.92"
-                    change.innerText="02.26"
-                },1500)
-            }
-            else if(type=="a62"){
-              change.innerText="00.15"
-                testing="read31"
-                setTimeout(function(){
-                     change.innerText="00.17"
-                },1500)
-            }
-            else if(type=="a31"){
                 change.innerText="00.30"
-                testing="read32"
+                testing="read9"
                 setTimeout(function(){
                     change.innerText="00.31"
                 },1500)
             }
-            else if(type=="a16"){
+            else if(type=="a125"){
+                // change.innerText="00.91"
                  change.innerText="00.53"
+                testing="read10"
+                setTimeout(function(){
+                    // change.innerText="00.92"
+                    change.innerText="00.54"
+                },1500)
+            }
+            else if(type=="a62"){
+              change.innerText="00.90"
+                testing="read31"
+                setTimeout(function(){
+                     change.innerText="00.92"
+                },1500)
+            }
+            else if(type=="a31"){
+                change.innerText="01.43"
+                testing="read32"
+                setTimeout(function(){
+                    change.innerText="01.46"
+                },1500)
+            }
+            else if(type=="a16"){
+                 change.innerText="02.23"
                 testing="read33"
                 setTimeout(function(){              
-                     change.innerText="00.54"
+                     change.innerText="02.26"
                     checking="khatam"
                 },1500)
             }
