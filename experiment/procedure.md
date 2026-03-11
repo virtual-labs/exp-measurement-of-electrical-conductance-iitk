@@ -38,7 +38,7 @@ The equivalent conductance of acetic acid at infinite dilution (Λ0) is given as
 <b> Determination of dissociation constant of acetic acid by conductance measurement</b><br>
 <img src="images/fig13.png" width="700"><br><br>
 <b> Procedure in simulator of the experiment</b><br><br>
-<b>7. Analysis</b><br><br>
+<b> Analysis</b><br><br>
 A.	Determine the cell constant of the conductivity cell. <br>
 B.	Determine equivalent conductance at infinite dilution for NaCl, HCl and CH3COONa.<br>
 C.	Determine the dissociation constant of acetic acid by conductivity measurement.
