@@ -1,0 +1,1244 @@
+
+ @font-face {
+    font-family: digital;
+    src:url('../fonts/digital-7-webfont.woff2') format('woff2'),
+        url('../fonts/digital-7-webfont.woff') format('woff'),
+        url("../fonts/digital-7.ttf") format('truetype');
+} 
+
+
+@media only screen and (max-width: 480px) {
+    /* Your styles for mobile devices go here */
+    body {
+        background-color: greenyellow;
+    }
+    .footer{
+        width: 100%;
+    }
+    #message{
+        position: absolute;
+        left: 0%;
+        height: 20%;
+        width: 96%;
+        top: 60%;
+    }
+    #change{
+        font-size: 3vw;
+    }
+    .tblhd{
+        border: 1px solid black;
+    }
+    .tbl1,th,td{
+        border: 1px solid black;
+    }
+    #sound{
+        width:5%;
+        top: 45%;
+        left: 3%;
+        height: 40%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for tablets go here */
+    body {
+        background-color: rgb(173, 39, 235);
+    }
+    .footer{
+        width: 100%;
+
+    }
+    #message{
+        position: absolute;
+        left: 0%;
+        height: 20%;
+        width: 96%;
+        top: 59%;
+    }
+    #change{
+        font-size: 3vw;
+    }
+    .tblhd{
+        border: 1px solid black;
+    }
+    .tbl1,th,td{
+        border: 1px solid black;
+    }
+    #sound{
+        width:5%;
+        top: 45%;
+        left: 3%;
+        height: 40%;
+    }
+}
+
+@media (min-width: 769px) {
+    /* Your styles for desktops go here */
+    body {
+        background-color: red;
+    }
+    #message{
+        position: absolute;
+        left: 97%;
+        width: 21%;
+        height: 96%;
+        
+    }
+    .footer{
+        height: 100%;
+    }
+    #change{
+        font-size: 240%;
+    }
+    .tblhd{
+        border: 1px solid black;
+    }
+    .tbl1,th,td{
+        border: 1px solid black;
+    }
+    #sound{
+        width:12%;
+        top: 92%;
+        left: 10%;
+        height: 5%;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    /*padding-top: 49.25%;*/
+    position: relative;
+}
+
+.header{
+    border: 1px solid black;
+    background-color: aqua;
+    height: 0%;
+    width: 0%; 
+    /*padding-top: 7%;*/
+    position: absolute;
+    visibility: hidden;
+}
+
+.header h1{
+    font-size: 2vw;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.footer{
+    display: flex;
+    /*height: 100%;
+    /*width: 100%;*/
+    position: relative;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    aspect-ratio: 16/9;
+}
+
+.simulate{
+    background-size: cover;
+    position: relative;
+    height: 96%;
+   /* width: 77%;*/
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 0%;
+    position: absolute;
+    aspect-ratio: 16/9;
+}
+
+#lab{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+}
+
+#message{
+    margin-left: 1%;
+    margin-top: 0%;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    /*width: 21%;
+    height: 96%;*/
+    position: relative;
+    text-align: center;
+    /*left: 99%;
+    /*visibility: hidden;*/
+}
+
+#work{
+    background-size: cover;
+    position: absolute;
+    height: 96%;
+    /*width: 77%;*/
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 0%;
+    aspect-ratio: 16/9;
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    visibility: hidden;
+}
+
+#button{
+    background-size: cover;
+    position: absolute;
+    height: 96%;
+    /*width: 77%;*/
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 0%;
+    visibility: visible;
+    aspect-ratio: 16/9;
+}
+
+#start{
+    position:absolute;
+    border-radius: 10%;
+    padding: 0.5%;
+    font-size: 1vw;
+    left: 90%;
+    top: 90%;
+    border: none;
+    background-color: rgb(0, 244, 16);
+    box-shadow: 1px 1px 0px 0.5px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#start:active{
+    scale: 0.9;
+    transition: all ease 0.2s;
+}
+
+#ins{
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#text{
+    font-size: 2vw;
+    font-weight: 100;
+    color: blue;
+}
+
+#sound{
+    position: absolute;
+    /*height: 5%;
+    width: 10%;
+    top: 92%;
+    left: 8%;*/
+    transition: all;
+    transition-duration: 0.1s;
+}
+
+#sound:active{
+    scale: 0.9;
+}
+
+/*#sound:hover{
+    border: 1%;
+}*/
+
+#hindi{
+    position:absolute;
+    border-radius: 20%;
+    padding: 1%;
+    font-size: 1.5vh;
+    left: 45%;
+    top: 50%;
+    border: none;
+    background-color: rgb(226, 239, 33);
+    /*box-shadow: 2px 2px 0px 1px;*/
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#hindi:active{
+    scale: 0.9;
+}
+
+#eng{
+    position:absolute;
+    border-radius: 20%;
+    padding: 1%;
+    font-size: 1.5vh;
+    left: 55%;
+    top: 50%;
+    border: none;
+    background-color: rgb(226, 239, 33);
+    /*box-shadow: 2px 2px 0px 1px;*/
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#eng:active{
+    scale: 0.9;
+}
+
+#lselector{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2vh;
+    color: white;
+    left: 45.2%;
+    top: 40%;
+}
+
+#langselector{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    transition: all;
+    transition-duration: 1s;
+    /*aspect-ratio: 16/9;*/
+}
+
+#reading{
+    width: 5.7%;
+    height: 4.5%;
+    top: 64.5%;
+    left: 9.2%;
+    position: absolute;
+    text-align: center;
+}
+
+#change{
+    margin-top: 3%;
+    opacity: 0%;
+    color: red;
+    transition: all;
+    transition-duration: 1s;
+    font-family: digital;
+    font-weight: 100;
+    /*font-size: 2.4vh;*/
+}
+
+#conductometer{
+    width: 50%;
+    height: 60%;
+    top: 24%;
+    left: 5%;
+    position: absolute;
+    visibility: hidden;
+    transition: all;
+    transition-duration: 1s;
+    /*animation: vibrate 1s;
+    animation-iteration-count: infinite;*/
+    
+}
+
+/*#power{
+    height: 5%;
+    width: 5%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    visibility: hidden;
+}*/
+
+#power-button{
+    height: 15%;
+    width: 9%;
+    position: absolute;
+    left: 10%;
+    top: 48%;
+    visibility: hidden;
+}
+
+#on{
+    visibility: hidden;
+    height: 6%;
+    width: 2%;
+    position: absolute;
+    left: 15.7%;
+    top: 50.2%;
+}
+
+#off{
+    visibility: hidden;
+    height: 6%;
+    width: 2%;
+    position: absolute;
+    left: 15.7%;
+    top: 50.2%;
+}
+#nob1{
+    position: absolute;
+    visibility: hidden;
+    height: 4%;
+    width: 2%;
+    top: 66.2%;
+    left: 22.8%;
+    rotate: -90deg;
+    transition: all;
+    transition-duration: 1s;    
+}
+
+#nob2{
+    position: absolute;
+    visibility: hidden;
+    height: 4%;
+    width: 2%;
+    top: 66.4%;
+    left: 18%;
+    rotate: -95deg;
+    transition: all;
+    transition-duration: 1s;
+    
+}
+
+#nob3{
+    position: absolute;
+    visibility: hidden;
+    height: 4%;
+    width: 2%;
+    top: 65.4%;
+    left: 26.7%;
+    rotate: 90deg;
+    transition: all;
+    transition-duration: 1s;
+    
+}
+
+#clip{
+    width: 9%;
+    height: 5%;
+    top: 58.8%;
+    left: 40.8%;
+    position: absolute;
+    visibility: hidden;
+    transition: all;
+    transition-duration: 1s;
+    
+}
+
+#cell{
+    width: 6%;
+    height: 27%;
+    top: 37.5%;
+    left: 44.1%;
+    position: absolute;
+    visibility: hidden;
+    transition: all;
+    transition-duration: 1s;
+    
+}
+
+#rightarrow{
+    width: 5%;
+    height: 3%;
+    top: 64.5%;
+    left: 1%;
+    position: absolute;
+    visibility: hidden;
+}
+
+#cellconst{
+    width: 1.5%;
+    height: 2%;
+    position: absolute;
+    top: 65.3%;
+    left: 6.7%;
+}
+
+#ffb{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 65%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: visible;
+}
+
+#bb{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 65%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: visible;
+}
+
+#ffb1{
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    top: 68%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: visible;
+}
+
+#bb1{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#ffb2{
+    position:absolute;
+    width: 5%;
+    height: 20%;
+    top: 68%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: visible;
+}
+
+#bb2{
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    top: 68%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: visible;
+}
+
+#na5{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na5b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na25{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na25b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na125{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 89%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na125b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 89%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na62{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 69%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na62b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left:69%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na31{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 77%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na31b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left: 77%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na16{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 85%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#na16b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left: 85%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+/**************************************** CH3COONa   BEAKER  ****************************************************/
+
+#a5{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a5b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a25{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a25b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a125{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 89%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a125b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 89%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a62{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 69%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a62b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left:69%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a31{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 77%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a31b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left: 77%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a16{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 85%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#a16b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left: 85%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+/*****************************************  HCL BEAKER  ****************************************************/
+
+#h5{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h5b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 73%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h25{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h25b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 81%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h125{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 63.1%;
+    left: 89%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h125b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 62.5%;
+    left: 89%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h62{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 69%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h62b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left:69%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h31{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 77%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h31b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left: 77%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h16{
+    position: absolute;
+    width: 5%;
+    height: 12%;
+    top: 68.1%;
+    left: 85%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#h16b{
+    position: absolute;
+    width: 5%;
+    height: 12.5%;
+    top: 67.5%;
+    left: 85%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+
+
+
+
+#popup{
+    height: 26%;
+    width: 50%;
+    left: 25%;
+    top: 40%;
+    opacity: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+#popheader{
+    /*position: absolute;*/
+    height: 20%;
+    width: 100%;
+    background-color: red;
+
+}
+#ptext{
+    color: white;
+    font-size: 1.5vw;
+    font-family:'Times New Roman', Times, serif;
+}
+#greentick{
+    position: absolute;
+    height: 20%;
+    width: 6%;
+    left: 93.6%;
+    top: 79%;
+}
+#greentick:active{
+    scale: 0.9;
+}
+
+#hinttext{
+    color: black;
+    font-size: 1.5vw;
+}
+
+#calculation{
+    background-size: cover;
+    position: absolute;
+    height: 96%;
+    /*width: 77%;*/
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 0%;
+    aspect-ratio: 16/9;
+}
+
+#tiles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+}
+
+#top-view{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+    top: 0%;
+    left: 0%;
+}
+
+#hovt{
+    position: absolute;
+    font-size: 1vw;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: all;
+    transition-duration: 0.5s;
+    /*left: 0%;
+    top: 0%;*/
+    visibility: hidden;
+}
+
+#hconductometer{
+    position: absolute;
+    height: 12%;
+    width: 16%;
+    /* background-color: red; */
+    top: 45%;
+    left: 18%;
+}
+
+#hcellstand{
+    position: absolute;
+    height: 33%;
+    width: 8%;
+    /*background-color: green;*/
+    top: 25%;
+    left: 40%;
+}
+
+#hcell{
+    position: absolute;
+    height: 18%;
+    width: 2%;
+    /*background-color: aqua;*/
+    top: 30%;
+    left: 44%;
+}
+
+#hcs{
+    position: absolute;
+    height: 13%;
+    width: 5%;
+    /*background-color: blue;*/
+    top: 44%;
+    left: 57.5%;
+}
+
+#hss{
+    position: absolute;
+    height: 18%;
+    width: 5%;
+    /*background-color: blue;*/
+    top: 39%;
+    left: 65.5%;
+}
+
+#has{
+    position: absolute;
+    height: 18%;
+    width: 5%;
+    /*background-color: blue; */
+    top: 39%;
+    left: 72%;
+}
+
+#hsa{
+    position: absolute;
+    height: 18%;
+    width: 5%;
+    /*background-color: blue; */
+    top: 39%;
+    left: 78.5%;
+}
+
+#ph{
+    position: absolute;
+    height: 8%;
+    width: 6%;
+    transition: all;
+    transition-duration: 1s;
+    animation: blinking 1s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+    rotate: 180deg;
+}
+
+#hlight{
+    position: absolute;
+    width: 2%;
+    height: 11%;
+    top: 33.5%;
+    left: 51.5%;
+    visibility: hidden;
+    border: 3px solid red;
+    animation: blinking 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------  table properties   ---------------------------------------------------------------------*/
+
+
+
+#dataimage{
+    position: absolute;
+    height: 40%;
+    left: 35%;
+    top: 5%;
+    visibility: hidden;
+}
+
+#imageheading{
+    position: absolute;
+    left: 30%;
+    text-align: center;
+    font-size: 0.9vw;
+    top: 45%;
+    visibility: hidden;
+}
+
+#formula{
+    position: absolute;
+    left: 22%;
+    font-size: 1.1vw;
+    top: 49%;
+    visibility: hidden;
+}
+
+.tblhd{
+    position: absolute;
+    left: 20%;
+    /*border: 2px solid black;*/
+    width: 60%;
+    text-align: center;
+    /*background-color: rgb(245, 243, 243);*/
+    font-size: 1.2vw; 
+}
+
+
+.tbl1,th,td{
+    /*background-color: rgb(245, 243, 243);*/
+    color: rgb(0, 0, 0);
+   /*border: 2px solid rgb(0, 0, 0);*/
+    border-collapse: separate;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2vw;
+}
+
+#tableheading1{
+    top: 6%;
+    visibility: hidden;
+}
+
+#tableheading2{
+    top: 46%;
+    visibility: hidden;
+}
+
+#tableheading3{
+    top: 6%;
+    visibility: hidden;
+}
+
+#tableheading4{
+    top: 46%;
+    visibility: hidden;
+}
+
+#tableheading5{
+    top: 6%;
+    visibility: hidden;
+}
+
+table{
+    position: absolute;
+    left: 20%;
+    width: 60%;
+}
+
+#table1{
+    top: 10%;
+    visibility: hidden;
+}
+
+#table2{
+
+    top: 50%;
+    visibility: hidden;
+}
+
+#table3{
+    top: 10%;
+    visibility: hidden;
+}
+
+#table4{
+    top: 50%;
+    visibility: hidden;
+}
+
+#table5{
+    top: 10%;
+    visibility: hidden;
+}
+
+
+
+
+
+@keyframes blinking {
+    0%{opacity: 100%;}
+    50%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+
+@keyframes vibrate {
+    0%{scale: 1.1;}
+    50%{scale: 1.0;}    
+    100%{scale: 1.1;}
+    
+}

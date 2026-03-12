@@ -1,0 +1,461 @@
+
+/home/runner/work/exp-measurement-of-electrical-conductance-iitk/exp-measurement-of-electrical-conductance-iitk/experiment/simulation/script/newsteps.js
+   50:5   warning  'green' is assigned a value but never used         no-unused-vars
+   57:5   warning  'tbl1' is assigned a value but never used          no-unused-vars
+   58:5   warning  'tbl2' is assigned a value but never used          no-unused-vars
+   59:5   warning  'tbl3' is assigned a value but never used          no-unused-vars
+   60:5   warning  'tbl4' is assigned a value but never used          no-unused-vars
+   61:5   warning  'tbl5' is assigned a value but never used          no-unused-vars
+   63:5   warning  'tblh1' is assigned a value but never used         no-unused-vars
+   64:5   warning  'tblh2' is assigned a value but never used         no-unused-vars
+   65:5   warning  'tblh3' is assigned a value but never used         no-unused-vars
+   66:5   warning  'tblh4' is assigned a value but never used         no-unused-vars
+   67:5   warning  'tblh5' is assigned a value but never used         no-unused-vars
+   69:5   warning  'dataimage' is assigned a value but never used     no-unused-vars
+   70:5   warning  'imageheading' is assigned a value but never used  no-unused-vars
+   71:5   warning  'formula' is assigned a value but never used       no-unused-vars
+   77:5   warning  'type' is assigned a value but never used          no-unused-vars
+   81:5   warning  'imageshow' is assigned a value but never used     no-unused-vars
+   84:10  warning  'nacl5' is defined but never used                  no-unused-vars
+   85:8   warning  'cleaning' is not defined                          no-undef
+   88:9   warning  'beaker' is not defined                            no-undef
+   90:9   warning  'clickcount' is not defined                        no-undef
+   91:9   warning  'cleaning' is not defined                          no-undef
+   92:9   warning  'ph' is not defined                                no-undef
+   95:33  warning  'clickcount' is not defined                        no-undef
+   98:9   warning  'clickcount' is not defined                        no-undef
+   99:9   warning  'checking' is not defined                          no-undef
+  100:9   warning  'ph' is not defined                                no-undef
+  104:10  warning  'nacl25' is defined but never used                 no-unused-vars
+  105:8   warning  'checking' is not defined                          no-undef
+  108:9   warning  'beaker' is not defined                            no-undef
+  110:9   warning  'clickcount' is not defined                        no-undef
+  111:9   warning  'ph' is not defined                                no-undef
+  113:33  warning  'clickcount' is not defined                        no-undef
+  116:9   warning  'clickcount' is not defined                        no-undef
+  117:9   warning  'checking' is not defined                          no-undef
+  118:9   warning  'ph' is not defined                                no-undef
+  119:21  warning  'checking' is not defined                          no-undef
+  123:10  warning  'nacl125' is defined but never used                no-unused-vars
+  124:8   warning  'checking' is not defined                          no-undef
+  127:9   warning  'beaker' is not defined                            no-undef
+  129:9   warning  'clickcount' is not defined                        no-undef
+  130:9   warning  'ph' is not defined                                no-undef
+  132:33  warning  'clickcount' is not defined                        no-undef
+  135:9   warning  'clickcount' is not defined                        no-undef
+  136:9   warning  'checking' is not defined                          no-undef
+  138:13  warning  'b1f' is not defined                               no-undef
+  139:13  warning  'b1b' is not defined                               no-undef
+  152:13  warning  'b1f' is not defined                               no-undef
+  153:13  warning  'b1b' is not defined                               no-undef
+  162:9   warning  'ph' is not defined                                no-undef
+  169:10  warning  'nacl62' is defined but never used                 no-unused-vars
+  170:8   warning  'checking' is not defined                          no-undef
+  173:9   warning  'beaker' is not defined                            no-undef
+  175:9   warning  'clickcount' is not defined                        no-undef
+  176:9   warning  'ph' is not defined                                no-undef
+  178:34  warning  'clickcount' is not defined                        no-undef
+  181:9   warning  'clickcount' is not defined                        no-undef
+  182:9   warning  'checking' is not defined                          no-undef
+  183:8   warning  'ph' is not defined                                no-undef
+  187:10  warning  'nacl31' is defined but never used                 no-unused-vars
+  188:8   warning  'checking' is not defined                          no-undef
+  191:9   warning  'beaker' is not defined                            no-undef
+  193:9   warning  'clickcount' is not defined                        no-undef
+  194:9   warning  'ph' is not defined                                no-undef
+  196:34  warning  'clickcount' is not defined                        no-undef
+  199:9   warning  'clickcount' is not defined                        no-undef
+  200:9   warning  'checking' is not defined                          no-undef
+  201:9   warning  'ph' is not defined                                no-undef
+  205:10  warning  'nacl16' is defined but never used                 no-unused-vars
+  206:8   warning  'checking' is not defined                          no-undef
+  209:9   warning  'beaker' is not defined                            no-undef
+  211:9   warning  'clickcount' is not defined                        no-undef
+  212:9   warning  'ph' is not defined                                no-undef
+  214:34  warning  'clickcount' is not defined                        no-undef
+  217:9   warning  'clickcount' is not defined                        no-undef
+  218:9   warning  'b1f' is not defined                               no-undef
+  219:9   warning  'b1b' is not defined                               no-undef
+  234:13  warning  'b1f' is not defined                               no-undef
+  235:13  warning  'b1b' is not defined                               no-undef
+  243:9   warning  'ph' is not defined                                no-undef
+  266:10  warning  'hcl5' is defined but never used                   no-unused-vars
+  270:9   warning  'beaker' is not defined                            no-undef
+  272:9   warning  'clickcount' is not defined                        no-undef
+  273:9   warning  'ph' is not defined                                no-undef
+  275:33  warning  'clickcount' is not defined                        no-undef
+  278:9   warning  'clickcount' is not defined                        no-undef
+  279:9   warning  'checking' is not defined                          no-undef
+  280:9   warning  'ph' is not defined                                no-undef
+  284:10  warning  'hcl25' is defined but never used                  no-unused-vars
+  285:8   warning  'checking' is not defined                          no-undef
+  288:9   warning  'beaker' is not defined                            no-undef
+  290:9   warning  'clickcount' is not defined                        no-undef
+  291:9   warning  'ph' is not defined                                no-undef
+  293:33  warning  'clickcount' is not defined                        no-undef
+  296:9   warning  'clickcount' is not defined                        no-undef
+  297:9   warning  'checking' is not defined                          no-undef
+  298:9   warning  'ph' is not defined                                no-undef
+  302:10  warning  'hcl125' is defined but never used                 no-unused-vars
+  303:8   warning  'checking' is not defined                          no-undef
+  306:9   warning  'beaker' is not defined                            no-undef
+  308:9   warning  'clickcount' is not defined                        no-undef
+  309:9   warning  'ph' is not defined                                no-undef
+  311:33  warning  'clickcount' is not defined                        no-undef
+  314:9   warning  'clickcount' is not defined                        no-undef
+  315:9   warning  'checking' is not defined                          no-undef
+  318:13  warning  'b1f' is not defined                               no-undef
+  319:13  warning  'b1b' is not defined                               no-undef
+  332:13  warning  'b1f' is not defined                               no-undef
+  333:13  warning  'b1b' is not defined                               no-undef
+  342:10  warning  'ph' is not defined                                no-undef
+  352:10  warning  'hcl62' is defined but never used                  no-unused-vars
+  353:8   warning  'checking' is not defined                          no-undef
+  356:9   warning  'beaker' is not defined                            no-undef
+  358:9   warning  'clickcount' is not defined                        no-undef
+  359:9   warning  'ph' is not defined                                no-undef
+  361:34  warning  'clickcount' is not defined                        no-undef
+  364:9   warning  'clickcount' is not defined                        no-undef
+  365:9   warning  'checking' is not defined                          no-undef
+  366:8   warning  'ph' is not defined                                no-undef
+  370:10  warning  'hcl31' is defined but never used                  no-unused-vars
+  371:8   warning  'checking' is not defined                          no-undef
+  374:9   warning  'beaker' is not defined                            no-undef
+  376:9   warning  'clickcount' is not defined                        no-undef
+  377:9   warning  'ph' is not defined                                no-undef
+  379:34  warning  'clickcount' is not defined                        no-undef
+  382:9   warning  'clickcount' is not defined                        no-undef
+  383:9   warning  'checking' is not defined                          no-undef
+  384:9   warning  'ph' is not defined                                no-undef
+  388:10  warning  'hcl16' is defined but never used                  no-unused-vars
+  389:8   warning  'checking' is not defined                          no-undef
+  392:9   warning  'beaker' is not defined                            no-undef
+  394:9   warning  'clickcount' is not defined                        no-undef
+  395:9   warning  'ph' is not defined                                no-undef
+  397:34  warning  'clickcount' is not defined                        no-undef
+  400:9   warning  'clickcount' is not defined                        no-undef
+  404:9   warning  'b1f' is not defined                               no-undef
+  405:9   warning  'b1b' is not defined                               no-undef
+  420:13  warning  'b1f' is not defined                               no-undef
+  421:13  warning  'b1b' is not defined                               no-undef
+  429:9   warning  'ph' is not defined                                no-undef
+  441:10  warning  'acetic5' is defined but never used                no-unused-vars
+  445:9   warning  'beaker' is not defined                            no-undef
+  447:9   warning  'clickcount' is not defined                        no-undef
+  448:9   warning  'ph' is not defined                                no-undef
+  450:33  warning  'clickcount' is not defined                        no-undef
+  454:9   warning  'clickcount' is not defined                        no-undef
+  455:9   warning  'checking' is not defined                          no-undef
+  456:9   warning  'ph' is not defined                                no-undef
+  460:10  warning  'acetic25' is defined but never used               no-unused-vars
+  461:8   warning  'checking' is not defined                          no-undef
+  464:9   warning  'beaker' is not defined                            no-undef
+  466:9   warning  'clickcount' is not defined                        no-undef
+  467:9   warning  'ph' is not defined                                no-undef
+  469:33  warning  'clickcount' is not defined                        no-undef
+  472:9   warning  'clickcount' is not defined                        no-undef
+  473:9   warning  'checking' is not defined                          no-undef
+  474:9   warning  'ph' is not defined                                no-undef
+  478:10  warning  'acetic125' is defined but never used              no-unused-vars
+  479:8   warning  'checking' is not defined                          no-undef
+  482:9   warning  'beaker' is not defined                            no-undef
+  484:9   warning  'clickcount' is not defined                        no-undef
+  485:9   warning  'ph' is not defined                                no-undef
+  487:34  warning  'clickcount' is not defined                        no-undef
+  490:9   warning  'clickcount' is not defined                        no-undef
+  491:9   warning  'checking' is not defined                          no-undef
+  492:9   warning  'ph' is not defined                                no-undef
+  495:13  warning  'b1f' is not defined                               no-undef
+  496:13  warning  'b1b' is not defined                               no-undef
+  509:13  warning  'b1f' is not defined                               no-undef
+  510:13  warning  'b1b' is not defined                               no-undef
+  519:9   warning  'ph' is not defined                                no-undef
+  529:10  warning  'acetic62' is defined but never used               no-unused-vars
+  530:8   warning  'checking' is not defined                          no-undef
+  533:9   warning  'beaker' is not defined                            no-undef
+  535:9   warning  'clickcount' is not defined                        no-undef
+  536:9   warning  'ph' is not defined                                no-undef
+  538:34  warning  'clickcount' is not defined                        no-undef
+  541:9   warning  'clickcount' is not defined                        no-undef
+  542:9   warning  'checking' is not defined                          no-undef
+  543:9   warning  'ph' is not defined                                no-undef
+  547:10  warning  'acetic31' is defined but never used               no-unused-vars
+  548:8   warning  'checking' is not defined                          no-undef
+  551:9   warning  'beaker' is not defined                            no-undef
+  553:9   warning  'clickcount' is not defined                        no-undef
+  554:9   warning  'ph' is not defined                                no-undef
+  556:34  warning  'clickcount' is not defined                        no-undef
+  559:9   warning  'clickcount' is not defined                        no-undef
+  560:9   warning  'checking' is not defined                          no-undef
+  561:9   warning  'ph' is not defined                                no-undef
+  565:10  warning  'acetic16' is defined but never used               no-unused-vars
+  566:8   warning  'checking' is not defined                          no-undef
+  569:9   warning  'beaker' is not defined                            no-undef
+  571:9   warning  'clickcount' is not defined                        no-undef
+  572:9   warning  'ph' is not defined                                no-undef
+  574:34  warning  'clickcount' is not defined                        no-undef
+  577:9   warning  'clickcount' is not defined                        no-undef
+  578:9   warning  'ph' is not defined                                no-undef
+  581:9   warning  'simulation' is not defined                        no-undef
+  582:9   warning  's' is not defined                                 no-undef
+  583:9   warning  's' is not defined                                 no-undef
+  584:9   warning  's' is not defined                                 no-undef
+  585:9   warning  's' is not defined                                 no-undef
+  586:9   warning  'ph' is not defined                                no-undef
+  589:13  warning  'cell' is not defined                              no-undef
+  590:13  warning  's' is not defined                                 no-undef
+  591:13  warning  'i' is not defined                                 no-undef
+  592:13  warning  'c' is not defined                                 no-undef
+  593:13  warning  'cell' is not defined                              no-undef
+  594:13  warning  'clip' is not defined                              no-undef
+  595:13  warning  'nob1' is not defined                              no-undef
+  596:13  warning  'nob2' is not defined                              no-undef
+  597:13  warning  'nob3' is not defined                              no-undef
+  598:13  warning  'b1f' is not defined                               no-undef
+  599:13  warning  'b1b' is not defined                               no-undef
+  606:13  warning  'change' is not defined                            no-undef
+  608:9   warning  'messcounter' is not defined                       no-undef
+  609:9   warning  'update' is not defined                            no-undef
+  642:10  warning  'green1' is defined but never used                 no-unused-vars
+  645:9   warning  'constset' is not defined                          no-undef
+  647:9   warning  'ph' is not defined                                no-undef
+  651:9   warning  'messcounter' is not defined                       no-undef
+  652:9   warning  'update' is not defined                            no-undef
+  656:9   warning  'messcounter' is not defined                       no-undef
+  657:9   warning  'update' is not defined                            no-undef
+  661:9   warning  'messcounter' is not defined                       no-undef
+  662:9   warning  'update' is not defined                            no-undef
+
+/home/runner/work/exp-measurement-of-electrical-conductance-iitk/exp-measurement-of-electrical-conductance-iitk/experiment/simulation/script/project.js
+   42:5   warning  'h' is assigned a value but never used            no-unused-vars
+   49:5   warning  'constbutton' is assigned a value but never used  no-unused-vars
+   59:5   warning  'power1' is assigned a value but never used       no-unused-vars
+   70:5   warning  'hsa' is assigned a value but never used          no-unused-vars
+   71:5   warning  'body' is assigned a value but never used         no-unused-vars
+   72:5   warning  'speakbtn' is assigned a value but never used     no-unused-vars
+   73:5   warning  'hindibtn' is assigned a value but never used     no-unused-vars
+   74:5   warning  'engbtn' is assigned a value but never used       no-unused-vars
+   85:5   warning  'cleaning' is assigned a value but never used     no-unused-vars
+   86:5   warning  'checking' is assigned a value but never used     no-unused-vars
+   91:5   warning  'reader' is assigned a value but never used       no-unused-vars
+   92:5   warning  'mode' is assigned a value but never used         no-unused-vars
+   95:5   warning  'rc' is assigned a value but never used           no-unused-vars
+   98:5   warning  'phc' is assigned a value but never used          no-unused-vars
+  167:10  warning  'hindi1' is defined but never used                no-unused-vars
+  183:10  warning  'eng1' is defined but never used                  no-unused-vars
+  200:21  warning  Empty block statement                             no-empty
+  242:10  warning  'ok' is defined but never used                    no-unused-vars
+  261:9   warning  'a5' is not defined                               no-undef
+  262:9   warning  'a5b' is not defined                              no-undef
+  263:9   warning  'a25' is not defined                              no-undef
+  264:9   warning  'a25b' is not defined                             no-undef
+  265:9   warning  'a125' is not defined                             no-undef
+  266:9   warning  'a125b' is not defined                            no-undef
+  272:9   warning  'a62' is not defined                              no-undef
+  273:9   warning  'a62b' is not defined                             no-undef
+  274:9   warning  'a31' is not defined                              no-undef
+  275:9   warning  'a31b' is not defined                             no-undef
+  276:9   warning  'a16' is not defined                              no-undef
+  277:9   warning  'a16b' is not defined                             no-undef
+  279:9   warning  'tbl1' is not defined                             no-undef
+  280:9   warning  'tbl2' is not defined                             no-undef
+  282:9   warning  'tblh1' is not defined                            no-undef
+  283:9   warning  'tblh2' is not defined                            no-undef
+  293:9   warning  'tbl1' is not defined                             no-undef
+  294:9   warning  'tbl2' is not defined                             no-undef
+  295:9   warning  'tblh1' is not defined                            no-undef
+  296:9   warning  'tblh2' is not defined                            no-undef
+  297:9   warning  'tbl3' is not defined                             no-undef
+  298:9   warning  'tblh3' is not defined                            no-undef
+  299:9   warning  'tbl4' is not defined                             no-undef
+  300:9   warning  'tblh4' is not defined                            no-undef
+  303:13  warning  'imageshow' is not defined                        no-undef
+  307:13  warning  'imageshow' is not defined                        no-undef
+  308:9   warning  'dataimage' is not defined                        no-undef
+  309:9   warning  'imageheading' is not defined                     no-undef
+  310:9   warning  'formula' is not defined                          no-undef
+  311:9   warning  'tbl3' is not defined                             no-undef
+  312:9   warning  'tblh3' is not defined                            no-undef
+  313:9   warning  'tbl4' is not defined                             no-undef
+  314:9   warning  'tblh4' is not defined                            no-undef
+  315:9   warning  'imageshow' is not defined                        no-undef
+  317:13  warning  'imageshow' is not defined                        no-undef
+  318:9   warning  'dataimage' is not defined                        no-undef
+  319:9   warning  'imageheading' is not defined                     no-undef
+  320:9   warning  'formula' is not defined                          no-undef
+  321:9   warning  'tbl5' is not defined                             no-undef
+  322:9   warning  'tblh5' is not defined                            no-undef
+  362:13  warning  'na5' is not defined                              no-undef
+  363:13  warning  'na5b' is not defined                             no-undef
+  364:13  warning  'na25' is not defined                             no-undef
+  365:13  warning  'na25b' is not defined                            no-undef
+  366:13  warning  'na125' is not defined                            no-undef
+  367:13  warning  'na125b' is not defined                           no-undef
+  386:10  warning  'poweron' is defined but never used               no-unused-vars
+  412:10  warning  'cellconst' is defined but never used             no-unused-vars
+  427:10  warning  'nobn1' is defined but never used                 no-unused-vars
+  442:16  warning  'm' is not defined                                no-undef
+  443:17  warning  'ptext' is not defined                            no-undef
+  444:17  warning  'hint' is not defined                             no-undef
+  445:17  warning  'box' is not defined                              no-undef
+  463:10  warning  'nobn2' is defined but never used                 no-unused-vars
+  495:10  warning  'nobn3' is defined but never used                 no-unused-vars
+  524:10  warning  'cellclick' is defined but never used             no-unused-vars
+  540:16  warning  'type' is not defined                             no-undef
+  543:17  warning  'testing' is not defined                          no-undef
+  551:21  warning  'type' is not defined                             no-undef
+  553:17  warning  'testing' is not defined                          no-undef
+  558:21  warning  'type' is not defined                             no-undef
+  560:17  warning  'testing' is not defined                          no-undef
+  564:22  warning  'type' is not defined                             no-undef
+  567:17  warning  'testing' is not defined                          no-undef
+  573:21  warning  'type' is not defined                             no-undef
+  575:17  warning  'testing' is not defined                          no-undef
+  580:21  warning  'type' is not defined                             no-undef
+  583:17  warning  'testing' is not defined                          no-undef
+  589:21  warning  'type' is not defined                             no-undef
+  590:17  warning  'chance' is not defined                           no-undef
+  593:17  warning  'testing' is not defined                          no-undef
+  602:21  warning  'type' is not defined                             no-undef
+  605:17  warning  'testing' is not defined                          no-undef
+  611:21  warning  'type' is not defined                             no-undef
+  613:17  warning  'testing' is not defined                          no-undef
+  618:21  warning  'type' is not defined                             no-undef
+  621:17  warning  'testing' is not defined                          no-undef
+  627:21  warning  'type' is not defined                             no-undef
+  629:17  warning  'testing' is not defined                          no-undef
+  634:21  warning  'type' is not defined                             no-undef
+  637:17  warning  'testing' is not defined                          no-undef
+  650:16  warning  'type' is not defined                             no-undef
+  651:17  warning  'chance' is not defined                           no-undef
+  654:17  warning  'testing' is not defined                          no-undef
+  662:21  warning  'type' is not defined                             no-undef
+  664:17  warning  'testing' is not defined                          no-undef
+  669:21  warning  'type' is not defined                             no-undef
+  672:17  warning  'testing' is not defined                          no-undef
+  678:21  warning  'type' is not defined                             no-undef
+  680:17  warning  'testing' is not defined                          no-undef
+  685:21  warning  'type' is not defined                             no-undef
+  687:17  warning  'testing' is not defined                          no-undef
+  692:21  warning  'type' is not defined                             no-undef
+  694:17  warning  'testing' is not defined                          no-undef
+  715:12  warning  'type' is not defined                             no-undef
+  722:12  warning  'type' is not defined                             no-undef
+  726:17  warning  'type' is not defined                             no-undef
+  732:12  warning  'testing' is not defined                          no-undef
+  733:13  warning  'chance' is not defined                           no-undef
+  735:17  warning  'testing' is not defined                          no-undef
+  736:13  warning  'chance' is not defined                           no-undef
+  739:13  warning  'm' is not defined                                no-undef
+  746:10  warning  'beaker1' is defined but never used               no-unused-vars
+  747:24  warning  'm' is not defined                                no-undef
+  747:32  warning  'm' is not defined                                no-undef
+  754:12  warning  'm' is not defined                                no-undef
+  755:13  warning  'm' is not defined                                no-undef
+  757:17  warning  'm' is not defined                                no-undef
+  758:13  warning  'm' is not defined                                no-undef
+  769:9   warning  'pop1' is not defined                             no-undef
+  770:16  warning  'm' is not defined                                no-undef
+  773:17  warning  'm' is not defined                                no-undef
+  775:16  warning  'm' is not defined                                no-undef
+  778:17  warning  'm' is not defined                                no-undef
+
+/home/runner/work/exp-measurement-of-electrical-conductance-iitk/exp-measurement-of-electrical-conductance-iitk/experiment/simulation/script/starting.js
+    1:1  warning  'hconductometer' is not defined  no-undef
+    2:5  warning  'hovt' is not defined            no-undef
+    3:5  warning  'hovt' is not defined            no-undef
+    4:5  warning  'hovt' is not defined            no-undef
+    5:5  warning  'hovt' is not defined            no-undef
+    6:5  warning  'hovt' is not defined            no-undef
+    7:5  warning  'c' is not defined               no-undef
+    8:5  warning  'c' is not defined               no-undef
+   11:1  warning  'hcellstand' is not defined      no-undef
+   12:5  warning  'hovt' is not defined            no-undef
+   13:5  warning  'hovt' is not defined            no-undef
+   14:5  warning  'hovt' is not defined            no-undef
+   15:5  warning  'hovt' is not defined            no-undef
+   16:5  warning  'hovt' is not defined            no-undef
+   17:5  warning  'c' is not defined               no-undef
+   18:5  warning  'c' is not defined               no-undef
+   22:1  warning  'hcell' is not defined           no-undef
+   23:5  warning  'hovt' is not defined            no-undef
+   24:5  warning  'hovt' is not defined            no-undef
+   25:5  warning  'hovt' is not defined            no-undef
+   26:5  warning  'hovt' is not defined            no-undef
+   27:5  warning  'hovt' is not defined            no-undef
+   28:5  warning  'cell' is not defined            no-undef
+   29:5  warning  'cell' is not defined            no-undef
+   33:1  warning  'hcs' is not defined             no-undef
+   34:5  warning  'hovt' is not defined            no-undef
+   35:5  warning  'hovt' is not defined            no-undef
+   36:5  warning  'hovt' is not defined            no-undef
+   37:5  warning  'hovt' is not defined            no-undef
+   38:5  warning  'hovt' is not defined            no-undef
+   39:5  warning  'b1f' is not defined             no-undef
+   40:5  warning  'b1f' is not defined             no-undef
+   41:5  warning  'b1b' is not defined             no-undef
+   42:5  warning  'b1b' is not defined             no-undef
+   46:1  warning  'hss' is not defined             no-undef
+   47:5  warning  'hovt' is not defined            no-undef
+   48:5  warning  'hovt' is not defined            no-undef
+   49:5  warning  'hovt' is not defined            no-undef
+   50:5  warning  'hovt' is not defined            no-undef
+   51:5  warning  'hovt' is not defined            no-undef
+   52:5  warning  'b2f' is not defined             no-undef
+   53:5  warning  'b2f' is not defined             no-undef
+   54:5  warning  'b2b' is not defined             no-undef
+   55:5  warning  'b2b' is not defined             no-undef
+   59:1  warning  'has' is not defined             no-undef
+   60:5  warning  'hovt' is not defined            no-undef
+   61:5  warning  'hovt' is not defined            no-undef
+   62:5  warning  'hovt' is not defined            no-undef
+   63:5  warning  'hovt' is not defined            no-undef
+   64:5  warning  'hovt' is not defined            no-undef
+   65:5  warning  'b3f' is not defined             no-undef
+   66:5  warning  'b3f' is not defined             no-undef
+   69:1  warning  'hsa' is not defined             no-undef
+   70:5  warning  'hovt' is not defined            no-undef
+   71:5  warning  'hovt' is not defined            no-undef
+   72:5  warning  'hovt' is not defined            no-undef
+   73:5  warning  'hovt' is not defined            no-undef
+   74:5  warning  'hovt' is not defined            no-undef
+   75:5  warning  'b3b' is not defined             no-undef
+   76:5  warning  'b3b' is not defined             no-undef
+   79:1  warning  'hconductometer' is not defined  no-undef
+   80:5  warning  'hovt' is not defined            no-undef
+   81:5  warning  'hovt' is not defined            no-undef
+   82:5  warning  'c' is not defined               no-undef
+   86:1  warning  'hcellstand' is not defined      no-undef
+   87:5  warning  'hovt' is not defined            no-undef
+   88:5  warning  'hovt' is not defined            no-undef
+   89:5  warning  'c' is not defined               no-undef
+   92:1  warning  'hcell' is not defined           no-undef
+   93:5  warning  'hovt' is not defined            no-undef
+   94:5  warning  'hovt' is not defined            no-undef
+   95:5  warning  'cell' is not defined            no-undef
+   98:1  warning  'hcs' is not defined             no-undef
+   99:5  warning  'hovt' is not defined            no-undef
+  100:5  warning  'hovt' is not defined            no-undef
+  102:5  warning  'b1f' is not defined             no-undef
+  104:5  warning  'b1b' is not defined             no-undef
+  107:1  warning  'hss' is not defined             no-undef
+  108:5  warning  'hovt' is not defined            no-undef
+  109:5  warning  'hovt' is not defined            no-undef
+  111:5  warning  'b2f' is not defined             no-undef
+  113:5  warning  'b2b' is not defined             no-undef
+  116:1  warning  'has' is not defined             no-undef
+  117:5  warning  'hovt' is not defined            no-undef
+  118:5  warning  'hovt' is not defined            no-undef
+  120:5  warning  'b3f' is not defined             no-undef
+  122:5  warning  'b3b' is not defined             no-undef
+  125:1  warning  'hsa' is not defined             no-undef
+  126:5  warning  'hovt' is not defined            no-undef
+  127:5  warning  'hovt' is not defined            no-undef
+  131:5  warning  'b3b' is not defined             no-undef
+  136:1  warning  'hindibtn' is not defined        no-undef
+  137:5  warning  'lang' is not defined            no-undef
+  141:1  warning  'engbtn' is not defined          no-undef
+  142:5  warning  'lang' is not defined            no-undef
+
+✖ 452 problems (0 errors, 452 warnings)
+

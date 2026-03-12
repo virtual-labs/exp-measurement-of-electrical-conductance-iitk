@@ -1,0 +1,66 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.What is conductance?",
+      "answers": {
+        "a": "Square of resistance",
+        "b": "Cube of resistance",
+        "c": "Inverse of resistance",
+        "d": "Exponential of resistance"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2.The CGS unit of specific conductance is?",
+      "answers": {
+        "a": "Ohm cm<sup>-1</sup>",
+        "b": "Ohm<sup>-1</sup> cm<sup>-1</sup>",
+        "c": "Ohm cm",
+        "d": "Ohm<sup>-1</sup> cm"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      
+      "question": "3.The expression and the SI unit of cell constant is are, respectively ?",
+      "answers": {
+        "a": "l/A and m<sup>-1</sup>",
+        "b": "A/l and m",
+        "c": "l<sup>3</sup>/A and m",
+        "d": "l<sup>3</sup>/A and unitless"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4.The relation between Λ and κ is?",
+      "answers": {
+        "a": "Λ = κ",
+        "b": " Λ = κ . c",
+        "c": "Λ = κ/c",
+        "d": " Λ = c/κ"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5.Equivalent conductance at infinite dilution Λ₀- is related to the ionic conductances λ₀⁺ and λ₀⁻ as: ",
+      "answers": {
+        "a": "Λ₀= λ₀<sup>+</sup> + λ₀<sup>-</sup>",
+       "b": "Λ₀= λ₀<sup>+</sup> - λ₀<sup>-</sup> ",
+        "c": "Λ₀= λ₀<sup>+</sup> . λ₀<sup>-</sup>",
+        "d": " Λ₀= λ₀<sup>+</sup> / λ₀<sup>-</sup>"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
