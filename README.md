@@ -1,24 +1,23 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Chemical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Basic Chemistry Laboratory-I
+<b> Experiment| <b> Measurement of electrical conductance to determine the dissociation constant of acetic acid
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+To teach students how to measure conductance and to use conductance value for the determination of dissociation constant of a weak acid.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Pratik Sen 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Indian Institute of Technology Kanpur
+<b> Email id|     <b>  psen@iitk.ac.in
+<b> Department |  Department of Chemistry
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Ketan Gautam | Student | Computer Science & Information Technology | BU Jhansi | ketangau@gmail.com
