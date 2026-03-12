@@ -1,4 +1,32 @@
-<b> Materials & Reagents Required:</b><br>
+Select your language.<br>
+
+1. Make yourself familiar with the instruments by hovering over them, then click on the Start button to start the experiment.<br>
+2. Turn on the main switch.<br>
+3. Press the power button on the conductometer.<br>
+4. Rotate the FUNCTION knob and set it to CELL-CONST mode.<br>
+5. Rotate the CELL-CONST knob to set the cell constant.<br>
+6. Rotate the FUNCTION knob and set it back to MHOS mode.<br>
+7. Clean the conductivity cell with distilled water.<br>
+8. Note down every value shown on the conductivity meter screen.<br>
+9. Measure NaCl solution conductivity at different concentrations: 0.05 N, 0.025 N, 0.0125 N, 0.0062 N, 0.0031 N, 0.0016 N.<br>
+10. Dip the conductivity cell into each sodium chloride solution of different concentrations one by one.<br>
+11. Leave the conductivity cell dipped in the solution for some time to establish equilibrium for accurate measurement.<br>
+12. Note down every reading shown on the conductometer screen.<br>
+13. Measure HCl solution conductivity at different concentrations: 0.05 N, 0.025 N, 0.0125 N, 0.0062 N, 0.0031 N, 0.0016 N.<br>
+14. Note down the readings carefully.<br>
+15. Clean the conductivity cell with distilled water.<br>
+16. Write down readings for each hydrochloric acid solution.<br>
+17. Leave the conductivity cell dipped in the solution for some time to establish equilibrium for accurate measurement.<br>
+18. Note down every reading shown on the conductometer screen.<br>
+19. Measure conductivity of CH3COONa solution at different concentrations: 0.05 N, 0.025 N, 0.0125 N, 0.0062 N, 0.0031 N, 0.0016 N.<br>
+20. Note down the readings carefully.<br>
+21. Clean the conductivity cell with distilled water.<br>
+22. Write down readings for sodium acetate solution.<br>
+23. Leave the conductivity cell dipped in the solution for some time to establish equilibrium for accurate measurement.<br>
+24. Note down every reading shown on the conductometer screen.<br>
+25. Press the Observations button to see all readings, values, and calculations.<br>
+
+<!--<b> Materials & Reagents Required:</b><br>
 A.	Volumetric flask (100 mL)<br>
 B.	Measuring cylinder (100 mL)<br>
 C.	Burette (25 mL)<br>
